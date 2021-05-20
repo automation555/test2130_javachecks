@@ -14,6 +14,7 @@ public class MyClass {
 private static final String MONDAY = "monday";
 private static final String TUESDAY = "tuesday";
 private static final String WEDNESDAY = "wednesday";
+private static final String NOUSE = "monday";
 
   public boolean getTrue() {
 	  return true;
@@ -42,7 +43,7 @@ private static final String WEDNESDAY = "wednesday";
     {
     	
     }
-    
+    System.out.println("Bug");
     String day = null;
     switch (day) {
     case MONDAY:
